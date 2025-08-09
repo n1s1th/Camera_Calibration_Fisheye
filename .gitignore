@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Calibration results (keep structure but ignore individual results)
+calibration_results/*.json
+calibration_results/*.jpg
+calibration_results/*.png
+
+# Captured calibration images (keep structure but ignore images)
+calib_images/*.jpg
+calib_images/*.png
+calib_images/*.jpeg
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Logs
+*.log
